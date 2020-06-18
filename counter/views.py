@@ -1,5 +1,6 @@
-from counter.models import Counter
 from django.shortcuts import render
+
+from counter.models import Counter
 
 
 def counter(request):
