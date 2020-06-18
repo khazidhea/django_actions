@@ -1,0 +1,1 @@
+![](https://github.com/khazidhea/django_actions/workflows/Test/badge.svg)
