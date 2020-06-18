@@ -2,7 +2,7 @@ from selenium import webdriver
 
 
 def test_basic(live_server):
-    driver = webdriver.Remote(command_executor='http://192.168.96.1:9515')
+    driver = webdriver.Chrome()
 
     driver.get(live_server.url)
     counter = driver.find_element_by_id('counter')
